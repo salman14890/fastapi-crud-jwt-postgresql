@@ -10,7 +10,7 @@ password = os.getenv('codeblog_password')
 hostname = os.getenv('codeblog_hostname')
 database = os.getenv('codeblog_database')
 
-database_url = f'postgresql://{username}:{password}@{hostname}/{database}'
+database_url = f'mysql+pymysql://{username}:{password}@{hostname}/{database}'
 
 SQLALCHEMY_DATABASE_URL = database_url
 
