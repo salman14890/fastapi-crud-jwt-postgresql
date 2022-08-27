@@ -7,19 +7,19 @@ Step 1:
 
 Create System Evnironment Variables
 
-codeblog_username = "set your postgresql username"
-codeblog_password = "set your postgresql password"
-codeblog_hostname = "set your hostname -> localhost or 127.0.0.1"
-codeblog_database = "set the name of password"
-codeblog_secret_key = "your secret key"
+codeblog_username = "set your postgresql username"<br />
+codeblog_password = "set your postgresql password"<br />
+codeblog_hostname = "set your hostname -> localhost or 127.0.0.1"<br />
+codeblog_database = "set the name of password"<br />
+codeblog_secret_key = "your secret key"<br />
 
 On Windows
 
-Window -> Edit the system environment variable -> Environment Variables -> System Variables -> New -> Set all 4 variables with their values
+Window -> Edit the system environment variable -> Environment Variables -> System Variables -> New -> Set all variables with their values
 
 On Linux (ubuntu 22.04)
 
-vi ~/.bash_profile
+vi .bashrc or nano .bashrc
 export variablename="variable value"
 
 NOTE: There should be no space between variableName=variableValue
